@@ -2,9 +2,9 @@
  /*  ===================================================== */
 
 /* ===== إعدادات JSONBIN ===== */
-const USERS_BIN_ID = "68d9751a43b1c97be9533ff7"; // ضع هنا Bin المستخدمين
-const ATTENDANCE_BIN_ID = "68f78b53ae596e708f219ecc"; // ضع هنا Bin الحضور
-const API_KEY = "$2a$10$wTX4NeG7hamsQFvPqAi37ukVtUMqnK.yKu9lCAlWXjENFkEvMsPwe"; // ضع هنا X-Master-Key
+const USERS_BIN_ID = "69146bd5ae596e708f5462f9"; // ضع هنا Bin المستخدمين
+const ATTENDANCE_BIN_ID = "6914725dae596e708f546e13"; // ضع هنا Bin الحضور
+const API_KEY = "$2a$10$aCR.GMsTnN1idxyhEVATjOcvkiLiRAgjI0cYLrPqerdggJPJLjqF."; // ضع هنا X-Master-Key
 
 /* ===== دوال مساعدة ===== */
 const $ = (id) => document.getElementById(id);
@@ -500,3 +500,4 @@ async function renderChart() {
     }
   });
 }
+
